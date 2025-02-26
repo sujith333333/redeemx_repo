@@ -1,0 +1,63 @@
+/* Container */
+.user-container {
+  margin-top: 100px;
+  padding: 20px;
+  /* background-color: #f8f9fa; */
+  border-radius: 10px;
+}
+
+/* Header */
+.header-title {
+  color: #015295;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Custom Card */
+.custom-card {
+  /* padding: 20px; */
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* background-color: #ffffff; */
+}
+
+
+.custom-button {
+  min-width: 100px; /* Ensures button has a decent width */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.custom-button:hover {
+  opacity: 0.9;
+}
+
+/* Alert */
+.alert {
+  font-size: 14px;
+}
+
+/* Form Controls */
+.form-control {
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+}
+
+/* Chart */
+canvas {
+  max-height: 300px;
+}
+
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+  }
