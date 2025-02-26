@@ -1,0 +1,43 @@
+.time-frame-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    max-width: 350px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #e4e5fd;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .submit-btn:hover {
+    background: #0056b3;
+  }
+
+  .points-color{
+    color: #015295;
+    font-weight: 500;
+  }
+  

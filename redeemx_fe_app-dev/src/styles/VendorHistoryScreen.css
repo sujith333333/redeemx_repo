@@ -1,0 +1,184 @@
+.filter-buttons-left {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-left: 10px; /* Adjust the space from the left edge */
+  }
+ 
+  /* Style for each filter option */
+  .filter-option {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s;
+  }
+ 
+  .filter-option:hover {
+    color: #007bff; /* Change color on hover */
+  }
+ 
+  /* Style for the active filter option */
+  .filter-option.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+  }
+ 
+ 
+  /* Decrease size of the search input */
+.filter-input {
+  padding: 8px; /* Decrease padding */
+  font-size: 12px; /* Smaller font size */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px; /* Smaller width */
+}
+ 
+/* Decrease size of the name search input */
+.filters input[type="text"] {
+  padding: 8px; /* Decrease padding */
+  font-size: 12px; /* Smaller font size */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px; /* Smaller width */
+}
+ 
+ 
+/* Decrease size of the date picker inputs */
+.filters input[type="date"] {
+  padding: 8px; /* Decrease padding */
+  font-size: 12px; /* Smaller font size */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px; /* Smaller width */
+}
+/* Apply colors for Debit and Credit */
+/* Apply colors for Debit and Credit */
+.debit-color {
+  color: red; /* Debit points in red */
+}
+ 
+.credit-color {
+  color: green; /* Credit points in green */
+}
+ 
+ 
+/* Decrease the font size inside the card */
+.transaction-card .transaction-details {
+  font-size: 14px; /* Decrease the font size for text inside the card */
+}
+ 
+/* Specifically targeting the h5 inside transaction card */
+.transaction-card .transaction-details h5 {
+  font-size: 16px; /* Smaller font size for transaction points */
+}
+ 
+/* Apply filter input styles */
+.filter-input {
+  padding: 8px; /* Decrease padding */
+  font-size: 12px; /* Smaller font size */
+  border: 1px solid #ccccccc5;
+  border-radius: 5px;
+  width: 150px; /* Smaller width */
+}
+ 
+/* Adjust for specific text field inputs in filters */
+.filters input[type="text"],
+.filters input[type="date"] {
+  padding: 8px; /* Decrease padding */
+  font-size: 12px; /* Smaller font size */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px; /* Smaller width */
+}
+ 
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+ 
+h2 {
+    text-align: center;
+    color: #333;
+}
+ 
+ 
+/* UserHistoryScreen.css */
+ 
+/* Card Styling */
+.transaction-card {
+  border: 1px solid #dddddda4;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+/* .transaction-details {
+  padding: 10px;
+}
+ 
+.transaction-details p {
+  font-size: 16px;
+  color: #333;
+}
+ 
+.transaction-details .btn {
+  font-size: 14px;
+} */
+/* Decrease the font size inside the card */
+.transaction-card .transaction-details {
+  font-size: 12px; /* Smaller font size for text inside the card */
+}
+ 
+/* Specifically targeting the h5 inside transaction card */
+.transaction-card .transaction-details h5 {
+  font-size: 14px; /* Smaller font size for transaction points */
+}
+ 
+/* Adjust the transaction text size further if needed */
+.transaction-card .transaction-details p {
+  font-size: 12px; /* Smaller font size for general transaction text */
+}
+ 
+/* Decrease the space between records */
+.transaction-card .row.mb-3 {
+  margin-bottom: 10px; /* Adjust margin to reduce space between records */
+}
+ 
+/* Decrease the font size of the text inside the card */
+.transaction-card .card-title,
+.transaction-card .card-text,
+.transaction-card .text-md-right h5 {
+  font-size: 14px; /* Reduce the font size */
+}
+ 
+/* Optional: Adjust the overall padding inside the card */
+.transaction-card .card-body {
+  padding: 10px; /* Reduce padding inside the card */
+}
+ 
+ 
+hr {
+  border-top: 1px solid #ddd;
+}
+ 
+/* Adjustments for filter inputs */
+.filters input {
+  margin-right: 10px;
+}
+ 
+.filter-input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 180px;
+}
+ 
+.filter-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+ 
+/* Apply colors for Debit and Credit */
+ 
+ 

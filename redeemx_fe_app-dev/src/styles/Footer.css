@@ -1,0 +1,68 @@
+.bottom-navigation {
+  background-color: #f8f9fa; /* Adjust background color */
+  padding: 10px;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: none !important;
+  border: none;
+  font-size: 14px;
+  padding: 5px;
+  color: #015295  !important; /* Set text and icon color */
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.nav-item p {
+  margin: 0;
+  font-size: 12px;
+  color: #015295 !important;; /* Ensure text color matches */
+}
+
+/* Remove focus and hover effects */
+.nav-item:focus,
+.nav-item:active,
+.nav-item:hover {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Apply color to icons */
+.nav-item svg {
+  color: #015295 !important;
+}
+
+/* Remove any unwanted button outline */
+button.nav-item {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+.nav-item {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-weight: normal;
+}
+
+.nav-item.selected {
+  background-color: #007bff; /* Highlight color */
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}

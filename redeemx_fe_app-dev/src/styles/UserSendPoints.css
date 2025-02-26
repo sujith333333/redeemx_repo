@@ -1,0 +1,69 @@
+.scrollable-container {
+  max-height: 500px;
+  overflow-y: auto;
+  /* margin-bottom: 20px; */
+}
+
+/* Ensure that content inside container does not overflow */
+.scanner-page {
+  overflow-x: hidden;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+
+}
+
+/* Video Container */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 200px;
+
+}
+
+/* Style the video element */
+video {
+  border-radius: 8px;
+  width: 100%;
+  max-width: 200px;
+  /* Limit the width of the video */
+  /* height: auto; */
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  max-width: 100px;
+
+}
+
+/* Error message styling */
+.alert-danger {
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+/* Mobile View - For smaller screens */
+@media (max-width: 576px) {
+  .scanner-page {
+    padding: 15px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  video {
+    max-width: 10%;
+  }
+
+  button {
+    width: 10%;
+  }
+}

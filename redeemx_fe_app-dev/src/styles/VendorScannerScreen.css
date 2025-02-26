@@ -1,0 +1,27 @@
+/* VendorScannerScreen.css */
+
+.vendor-scanner-screen {
+    background-color: #f9f9f9;
+    padding-top: 80px; /* Space for the fixed header */
+    padding-bottom: 60px; /* Space for the fixed footer */
+  }
+  
+  .qr-code-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .qr-code-image {
+    width: 300px;
+    height: auto;
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .qr-code-image {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,100 @@
+/* Full-Screen Background */
+.background-container {
+  /* background-image: url("https://ajacs.in/wp-content/uploads/2024/03/im-so-glad-i-found-you-shot-of-two-coworkers-talking-while-using-a-digital-tablet-.jpg"); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+Main Content
+.content-container {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Icons Section */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+}
+
+/* Icon Card */
+.icon-card {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  background: none;
+  box-shadow: none;
+}
+
+.icon-card:hover {
+  transform: scale(1.1);
+}
+
+.icon-card.active {
+  
+  border-color: #007bff;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+/* Remove Icon Background */
+.custom-icon {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.2s ease;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.icon-card:hover .custom-icon {
+  transform: scale(1.1);
+}
+
+/* Icon Text */
+.icon-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+/* Active State */
+.active .icon-text {
+  color: #007bff;
+}
+
+/* Content Section */
+.content-section {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f8f9fa;
+  min-height: 100px;
+  width: 100%;
+}
+
+/* Alert */
+.alert-danger {
+  font-size: 14px;
+  font-weight: bold;
+  color: red;
+  padding: 10px;
+  border-radius: 5px;
+}

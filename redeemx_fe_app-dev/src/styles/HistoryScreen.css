@@ -1,0 +1,46 @@
+/* HistoryScreen.css */
+
+/* Fix header and footer */
+.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.history-page {
+  margin-top: 80px; /* Adjust for fixed header */
+  margin-bottom: 60px; /* Adjust for fixed footer */
+}
+
+/* Styling for amount text */
+.amount-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-danger {
+  color: red;
+}
+
+/* Responsive design */
+@media (max-width: 767px) {
+  .history-page {
+    margin-top: 100px; /* Increase space for smaller screens */
+  }
+
+  .text-md-right {
+    text-align: right;
+  }
+}
